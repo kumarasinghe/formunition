@@ -1,0 +1,79 @@
+{
+  "compilerOptions": {
+      /***** BASIC OPTIONS *****/
+
+      /* target ECMAScript version */
+      "target": "es5",
+      /* use dynamic ECMAScript module imports */
+      "module": "esnext",
+      /* assumptions on target runtime capabilities */
+      "lib": ["dom", "dom.iterable", "esnext"],
+      /* let another tool perform transpilation */
+      "noEmit": true,
+      /* treat files as isolated independent modules */
+      "isolatedModules": true,
+      /* enable importing modules with absolute paths */
+      "baseUrl": ".",
+      /* check errors in js files as well */
+      "allowJs": true,
+
+      /***** TYPE CHECKING OPTIONS *****/
+
+      /* enable strict type-checking */
+      "strict": true,
+      /* raise error for implicit any types */
+      "noImplicitAny": true,
+      /* treat null different from undefined */
+      "strictNullChecks": true,
+      /* raise error when `this` is refereed in an unknown context  */
+      "noImplicitThis": true,
+      /* enable ECMAScript strict mode */
+      "alwaysStrict": true,
+
+      /***** MODULE RESOLUTION OPTIONS *****/
+
+      /* resolve imports like NodeJS */
+      "moduleResolution": "node",
+      /* allow default imports from modules without default exports */
+      "allowSyntheticDefaultImports": true,
+      /* allow importing CommonJS modules as ECMAScript modules */
+      "esModuleInterop": true,
+      /* enable importing json */
+      "resolveJsonModule": true,
+
+      /***** ADDITIONAL CHECKS *****/
+
+      /* raise errors on unused locals */
+      "noUnusedLocals": true,
+      /* raise errors on unused parameters */
+      "noUnusedParameters": true,
+      /* raise error when not all code paths in function return a value */
+      "noImplicitReturns": true,
+      /* raise errors for fallthrough cases in switch statement. */
+      "noFallthroughCasesInSwitch": true,
+      /* check casing when importing modules */
+      "forceConsistentCasingInFileNames": true,
+      /* speed up type checking with caching */
+      "incremental": true,
+      /* do not clear console output on change */
+      "preserveWatchOutput": true,
+      /* skip type checking for library code */
+      "skipLibCheck": true,
+      /* raise error when a value import is only used as a type */
+      "importsNotUsedAsValues": "error",
+      /* raise error when accessing fields with an non-indexed key */
+      "noUncheckedIndexedAccess": true,
+      /* raise error for unreachable code */
+      "exactOptionalPropertyTypes": true,
+      /* raise error for unreachable code */
+      "allowUnreachableCode": false,
+      /* raise error for unused labels */
+      "allowUnusedLabels": false,
+
+      /***** PROJECT SPECIFIC OPTIONS *****/
+
+      "jsx": "react",
+      "jsxFactory": "React.createElement",
+  },
+  "include": ["src", "lib"],
+}

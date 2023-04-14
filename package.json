@@ -1,0 +1,46 @@
+{
+  "name": "formite",
+  "version": "0.1.0",
+  "type": "module",
+  "files": [
+    "dist",
+    "index.d.ts"
+  ],
+  "main": "../dist/formite.umd.cjs",
+  "module": "./dist/formite.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    "import": "./dist/formite.js",
+    "require": "./dist/formite.umd.cjs",
+    "types": "./dist/index.d.ts"
+  },
+  "keywords": [
+    "react",
+    "form",
+    "lightweight",
+    "validation",
+    "small",
+    "fast",
+    "thin"
+  ],
+  "author": "Naveen Kumarasinghe <dndkumarasinghe@gmail.com>",
+  "homepage": "https://github.com/kumarasinghe/formite#readme",
+  "repository": "github:kumarasinghe/formite",
+  "description": "The most lightweight and flexible form library out there for React",
+  "publisher": "Naveen Kumarasinghe <dndkumarasinghe@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build"
+  },
+  "devDependencies": {
+    "@types/react-dom": "^18.0.11",
+    "@vitejs/plugin-react": "^3.1.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "typescript": "^4.9.4",
+    "vite": "^4.0.4",
+    "vite-plugin-dts": "^2.2.0",
+    "zod": "^3.21.4"
+  }
+}
