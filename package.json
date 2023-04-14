@@ -1,0 +1,49 @@
+{
+  "name": "formunition",
+  "version": "0.0.1",
+  "type": "module",
+  "files": [
+    "dist",
+    "index.d.ts"
+  ],
+  "main": "./dist/formunition.umd.cjs",
+  "module": "./dist/formunition.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    "import": "./dist/formunition.js",
+    "require": "./dist/formunition.umd.cjs",
+    "types": "./dist/index.d.ts"
+  },
+  "keywords": [
+    "react",
+    "form",
+    "lightweight",
+    "validation",
+    "small",
+    "fast",
+    "thin",
+    "formik",
+    "react-hook-form",
+    "react-final-form"
+  ],
+  "author": "Naveen Kumarasinghe <dndkumarasinghe@gmail.com>",
+  "homepage": "https://github.com/kumarasinghe/formunition#readme",
+  "repository": "github:kumarasinghe/formunition",
+  "description": "The most lightweight and flexible form library out there for React",
+  "publisher": "Naveen Kumarasinghe <dndkumarasinghe@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build"
+  },
+  "devDependencies": {
+    "@types/react-dom": "^18.0.11",
+    "@vitejs/plugin-react": "^3.1.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "typescript": "^4.9.4",
+    "vite": "^4.0.4",
+    "vite-plugin-dts": "^2.2.0",
+    "zod": "^3.21.4"
+  }
+}
